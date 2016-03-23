@@ -1,0 +1,6 @@
+D:\DV_Courses\HomeWork_Lesson1\HomeWork_Lesson1\bin\Debug\HomeWork_Lesson1.exe.config
+D:\DV_Courses\HomeWork_Lesson1\HomeWork_Lesson1\bin\Debug\HomeWork_Lesson1.exe
+D:\DV_Courses\HomeWork_Lesson1\HomeWork_Lesson1\bin\Debug\HomeWork_Lesson1.pdb
+D:\DV_Courses\HomeWork_Lesson1\HomeWork_Lesson1\obj\Debug\HomeWork_Lesson1.csprojResolveAssemblyReference.cache
+D:\DV_Courses\HomeWork_Lesson1\HomeWork_Lesson1\obj\Debug\HomeWork_Lesson1.exe
+D:\DV_Courses\HomeWork_Lesson1\HomeWork_Lesson1\obj\Debug\HomeWork_Lesson1.pdb

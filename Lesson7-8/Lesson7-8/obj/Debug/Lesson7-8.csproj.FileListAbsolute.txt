@@ -1,0 +1,7 @@
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Lesson7-8\bin\Debug\Lesson7-8.exe.config
+D:\DV_Courses\Lesson7-8\Lesson7-8\bin\Debug\Lesson7-8.exe.config
+D:\DV_Courses\Lesson7-8\Lesson7-8\bin\Debug\Lesson7-8.exe
+D:\DV_Courses\Lesson7-8\Lesson7-8\bin\Debug\Lesson7-8.pdb
+D:\DV_Courses\Lesson7-8\Lesson7-8\obj\Debug\Lesson7-8.exe
+D:\DV_Courses\Lesson7-8\Lesson7-8\obj\Debug\Lesson7-8.pdb
+D:\DV_Courses\Lesson7-8\Lesson7-8\obj\Debug\Lesson7-8.csprojResolveAssemblyReference.cache

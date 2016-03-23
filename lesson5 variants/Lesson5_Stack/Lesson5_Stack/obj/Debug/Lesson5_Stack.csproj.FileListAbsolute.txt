@@ -1,0 +1,12 @@
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Lesson5_Stack\bin\Debug\Lesson5_Stack.exe.config
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Lesson5_Stack\bin\Debug\Lesson5_Stack.exe
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Lesson5_Stack\bin\Debug\Lesson5_Stack.pdb
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Lesson5_Stack\obj\Debug\Lesson5_Stack.csprojResolveAssemblyReference.cache
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Lesson5_Stack\obj\Debug\Lesson5_Stack.exe
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Lesson5_Stack\obj\Debug\Lesson5_Stack.pdb
+D:\DV_Courses\lesson5 variants\Lesson5_Stack\Lesson5_Stack\bin\Debug\Lesson5_Stack.exe.config
+D:\DV_Courses\lesson5 variants\Lesson5_Stack\Lesson5_Stack\obj\Debug\Lesson5_Stack.exe
+D:\DV_Courses\lesson5 variants\Lesson5_Stack\Lesson5_Stack\obj\Debug\Lesson5_Stack.pdb
+D:\DV_Courses\lesson5 variants\Lesson5_Stack\Lesson5_Stack\bin\Debug\Lesson5_Stack.exe
+D:\DV_Courses\lesson5 variants\Lesson5_Stack\Lesson5_Stack\bin\Debug\Lesson5_Stack.pdb
+D:\DV_Courses\lesson5 variants\Lesson5_Stack\Lesson5_Stack\obj\Debug\Lesson5_Stack.csprojResolveAssemblyReference.cache

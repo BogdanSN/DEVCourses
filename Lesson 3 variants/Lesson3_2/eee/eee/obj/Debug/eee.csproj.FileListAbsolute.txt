@@ -1,0 +1,8 @@
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\eee\bin\Debug\eee.exe.config
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\eee\bin\Debug\eee.exe
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\eee\bin\Debug\eee.pdb
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\eee\obj\Debug\eee.exe
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\eee\obj\Debug\eee.pdb
+D:\DV_Courses\HomeWork_Lesson3_2\eee\eee\bin\Debug\eee.exe.config
+D:\DV_Courses\HomeWork_Lesson3_2\eee\eee\obj\Debug\eee.exe
+D:\DV_Courses\HomeWork_Lesson3_2\eee\eee\obj\Debug\eee.pdb

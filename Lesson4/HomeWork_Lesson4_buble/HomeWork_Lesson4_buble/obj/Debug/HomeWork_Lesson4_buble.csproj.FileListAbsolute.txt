@@ -1,0 +1,7 @@
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\HomeWork_Lesson4_buble\bin\Debug\HomeWork_Lesson4_buble.exe.config
+D:\DV_Courses\HomeWork_Lesson4\HomeWork_Lesson4_buble\HomeWork_Lesson4_buble\bin\Debug\HomeWork_Lesson4_buble.exe.config
+D:\DV_Courses\HomeWork_Lesson4\HomeWork_Lesson4_buble\HomeWork_Lesson4_buble\bin\Debug\HomeWork_Lesson4_buble.exe
+D:\DV_Courses\HomeWork_Lesson4\HomeWork_Lesson4_buble\HomeWork_Lesson4_buble\bin\Debug\HomeWork_Lesson4_buble.pdb
+D:\DV_Courses\HomeWork_Lesson4\HomeWork_Lesson4_buble\HomeWork_Lesson4_buble\obj\Debug\HomeWork_Lesson4_buble.csprojResolveAssemblyReference.cache
+D:\DV_Courses\HomeWork_Lesson4\HomeWork_Lesson4_buble\HomeWork_Lesson4_buble\obj\Debug\HomeWork_Lesson4_buble.exe
+D:\DV_Courses\HomeWork_Lesson4\HomeWork_Lesson4_buble\HomeWork_Lesson4_buble\obj\Debug\HomeWork_Lesson4_buble.pdb

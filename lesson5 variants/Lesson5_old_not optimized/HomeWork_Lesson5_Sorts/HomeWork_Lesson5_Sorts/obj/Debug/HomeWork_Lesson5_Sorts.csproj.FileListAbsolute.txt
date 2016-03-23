@@ -1,0 +1,10 @@
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\HomeWork_Lesson5_Sorts\bin\Debug\HomeWork_Lesson5_Sorts.exe.config
+D:\DV_Courses\HomeWork_Lesson5\HomeWork_Lesson5_Sorts\HomeWork_Lesson5_Sorts\bin\Debug\HomeWork_Lesson5_Sorts.exe.config
+D:\DV_Courses\HomeWork_Lesson5\HomeWork_Lesson5_Sorts\HomeWork_Lesson5_Sorts\obj\Debug\HomeWork_Lesson5_Sorts.csprojResolveAssemblyReference.cache
+D:\DV_Courses\HomeWork_Lesson5\HomeWork_Lesson5_Sorts\HomeWork_Lesson5_Sorts\bin\Debug\HomeWork_Lesson5_Sorts.exe
+D:\DV_Courses\HomeWork_Lesson5\HomeWork_Lesson5_Sorts\HomeWork_Lesson5_Sorts\bin\Debug\HomeWork_Lesson5_Sorts.pdb
+D:\DV_Courses\HomeWork_Lesson5\HomeWork_Lesson5_Sorts\HomeWork_Lesson5_Sorts\obj\Debug\HomeWork_Lesson5_Sorts.exe
+D:\DV_Courses\HomeWork_Lesson5\HomeWork_Lesson5_Sorts\HomeWork_Lesson5_Sorts\obj\Debug\HomeWork_Lesson5_Sorts.pdb
+D:\DV_Courses\HomeWork_Lesson5_old_not optimized\HomeWork_Lesson5_Sorts\HomeWork_Lesson5_Sorts\bin\Debug\HomeWork_Lesson5_Sorts.exe.config
+D:\DV_Courses\HomeWork_Lesson5_old_not optimized\HomeWork_Lesson5_Sorts\HomeWork_Lesson5_Sorts\obj\Debug\HomeWork_Lesson5_Sorts.exe
+D:\DV_Courses\HomeWork_Lesson5_old_not optimized\HomeWork_Lesson5_Sorts\HomeWork_Lesson5_Sorts\obj\Debug\HomeWork_Lesson5_Sorts.pdb

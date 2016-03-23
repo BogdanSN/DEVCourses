@@ -1,0 +1,7 @@
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\HomeWork_Lesson5_Correct\bin\Debug\HomeWork_Lesson5_Correct.exe.config
+D:\DV_Courses\HomeWork_Lesson5_Correct\HomeWork_Lesson5_Correct\bin\Debug\HomeWork_Lesson5_Correct.exe.config
+D:\DV_Courses\HomeWork_Lesson5_Correct\HomeWork_Lesson5_Correct\bin\Debug\HomeWork_Lesson5_Correct.exe
+D:\DV_Courses\HomeWork_Lesson5_Correct\HomeWork_Lesson5_Correct\bin\Debug\HomeWork_Lesson5_Correct.pdb
+D:\DV_Courses\HomeWork_Lesson5_Correct\HomeWork_Lesson5_Correct\obj\Debug\HomeWork_Lesson5_Correct.csprojResolveAssemblyReference.cache
+D:\DV_Courses\HomeWork_Lesson5_Correct\HomeWork_Lesson5_Correct\obj\Debug\HomeWork_Lesson5_Correct.exe
+D:\DV_Courses\HomeWork_Lesson5_Correct\HomeWork_Lesson5_Correct\obj\Debug\HomeWork_Lesson5_Correct.pdb

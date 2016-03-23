@@ -1,0 +1,7 @@
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\HomeWork_lesson6\bin\Debug\HomeWork_lesson6.exe.config
+D:\DV_Courses\HomeWork_lesson6\HomeWork_lesson6\bin\Debug\HomeWork_lesson6.exe.config
+D:\DV_Courses\HomeWork_lesson6\HomeWork_lesson6\bin\Debug\HomeWork_lesson6.exe
+D:\DV_Courses\HomeWork_lesson6\HomeWork_lesson6\bin\Debug\HomeWork_lesson6.pdb
+D:\DV_Courses\HomeWork_lesson6\HomeWork_lesson6\obj\Debug\HomeWork_lesson6.csprojResolveAssemblyReference.cache
+D:\DV_Courses\HomeWork_lesson6\HomeWork_lesson6\obj\Debug\HomeWork_lesson6.exe
+D:\DV_Courses\HomeWork_lesson6\HomeWork_lesson6\obj\Debug\HomeWork_lesson6.pdb

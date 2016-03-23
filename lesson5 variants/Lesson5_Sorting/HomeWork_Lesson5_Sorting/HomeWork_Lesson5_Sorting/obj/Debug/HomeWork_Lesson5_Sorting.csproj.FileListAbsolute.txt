@@ -1,0 +1,9 @@
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\HomeWork_Lesson5_Sorting\bin\Debug\HomeWork_Lesson5_Sorting.exe.config
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\HomeWork_Lesson5_Sorting\bin\Debug\HomeWork_Lesson5_Sorting.exe
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\HomeWork_Lesson5_Sorting\bin\Debug\HomeWork_Lesson5_Sorting.pdb
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\HomeWork_Lesson5_Sorting\obj\Debug\HomeWork_Lesson5_Sorting.csprojResolveAssemblyReference.cache
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\HomeWork_Lesson5_Sorting\obj\Debug\HomeWork_Lesson5_Sorting.exe
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\HomeWork_Lesson5_Sorting\obj\Debug\HomeWork_Lesson5_Sorting.pdb
+D:\DV_Courses\HomeWork_Lesson5_Sorting\HomeWork_Lesson5_Sorting\HomeWork_Lesson5_Sorting\bin\Debug\HomeWork_Lesson5_Sorting.exe.config
+D:\DV_Courses\HomeWork_Lesson5_Sorting\HomeWork_Lesson5_Sorting\HomeWork_Lesson5_Sorting\obj\Debug\HomeWork_Lesson5_Sorting.exe
+D:\DV_Courses\HomeWork_Lesson5_Sorting\HomeWork_Lesson5_Sorting\HomeWork_Lesson5_Sorting\obj\Debug\HomeWork_Lesson5_Sorting.pdb

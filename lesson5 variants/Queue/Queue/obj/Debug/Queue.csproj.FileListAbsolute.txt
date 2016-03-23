@@ -1,0 +1,12 @@
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Queue\bin\Debug\Queue.exe.config
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Queue\bin\Debug\Queue.exe
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Queue\bin\Debug\Queue.pdb
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Queue\obj\Debug\Queue.csprojResolveAssemblyReference.cache
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Queue\obj\Debug\Queue.exe
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Queue\obj\Debug\Queue.pdb
+D:\DV_Courses\lesson5 variants\Queue\Queue\bin\Debug\Queue.exe.config
+D:\DV_Courses\lesson5 variants\Queue\Queue\obj\Debug\Queue.exe
+D:\DV_Courses\lesson5 variants\Queue\Queue\obj\Debug\Queue.pdb
+D:\DV_Courses\lesson5 variants\Queue\Queue\bin\Debug\Queue.exe
+D:\DV_Courses\lesson5 variants\Queue\Queue\bin\Debug\Queue.pdb
+D:\DV_Courses\lesson5 variants\Queue\Queue\obj\Debug\Queue.csprojResolveAssemblyReference.cache
