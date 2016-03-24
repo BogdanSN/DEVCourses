@@ -8,8 +8,7 @@ namespace Lesson7_8
 {
     public interface IMyStack<T> : IBuffer<T>
     {
-        T Push(T value);
+        void Push(T value);
         T Pop();
-        T Peek(T value);
-    }
+      }
 }

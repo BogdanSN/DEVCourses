@@ -41,13 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="childMyQueue.cs" />
-    <Compile Include="childMyStack.cs" />
-    <Compile Include="childSorter.cs" />
+    <Compile Include="BubbleSorter.cs" />
     <Compile Include="Buffer.cs" />
     <Compile Include="IBuffer.cs" />
     <Compile Include="IMyQueue.cs" />
     <Compile Include="IMyStack.cs" />
+    <Compile Include="InsertionSorter.cs" />
     <Compile Include="IPrintable.cs" />
     <Compile Include="ISorter.cs" />
     <Compile Include="MyQueue.cs" />

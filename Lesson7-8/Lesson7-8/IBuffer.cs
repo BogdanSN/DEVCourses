@@ -8,8 +8,8 @@ namespace Lesson7_8
 {
     public interface IBuffer<T> : IPrintable
     {
-        bool isFull();
-        bool isEmpty();
-      //  T Peek();
+        bool IsFull();
+        bool IsEmpty();
+        T Peek();
     }
 }

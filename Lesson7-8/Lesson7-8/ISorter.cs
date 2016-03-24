@@ -8,6 +8,6 @@ namespace Lesson7_8
 {
     public interface ISorter<T> : IPrintable where T : IComparable
     {
-        void Sort();
+        void Sort( int value);
     }
 }

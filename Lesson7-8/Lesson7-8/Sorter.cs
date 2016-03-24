@@ -9,12 +9,11 @@ namespace Lesson7_8
     public abstract class Sorter<T> : ISorter<T> where T : IComparable
     {
         protected T[] arrayToSort;
-                        
-        public void Sort() 
-        {
-            Array.Sort(arrayToSort);
-        }
-        
+
+        public virtual void Sort(int SortArrayLenght) { }
+
+        public virtual  void Swap(int i, int bSwapArLenght) {}
+
         public void Print() 
         {
             Console.WriteLine("\nSorted Array:");

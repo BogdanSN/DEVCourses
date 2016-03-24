@@ -8,7 +8,7 @@ namespace Lesson7_8
 {
     public interface IMyQueue<T> : IBuffer<T>
     {
-        T Enqueue(T value);
-        T Dequeue();
+        void Enqueue(T value);
+        T Deq();
     }
 }

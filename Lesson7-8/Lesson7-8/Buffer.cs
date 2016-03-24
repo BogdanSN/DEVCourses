@@ -9,22 +9,18 @@ namespace Lesson7_8
     public abstract class Buffer<T> : IBuffer<T>
     {
         protected T[] bufferArray;
-              
-        public virtual bool isEmpty()
+        protected int topPossition = 0;
+               
+        public virtual bool IsFull()
         {
             return false;
         }
 
-        public virtual bool isFull()
+        public virtual bool IsEmpty()
         {
             return false;
         }
-
-        //public virtual T Peek()
-        //{
-            
-        //}
-
+        
         public void Print()
         {
             Console.WriteLine("");
@@ -33,6 +29,19 @@ namespace Lesson7_8
                 Console.Write("Sorted Array:\n {0} ", bufferArray[i]);
             }
         }
-       
+
+        public virtual T Peek() 
+        {
+            if (!IsEmpty())
+            {
+                Console.WriteLine("The last element in Stack is {0}", bufferArray[topPossition - 1]);
+                return bufferArray[topPossition - 1];
+            }
+            else 
+            { 
+                return default(T); 
+            }
+        }
+
     }
 }
