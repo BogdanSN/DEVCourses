@@ -5,3 +5,9 @@ D:\DV_Courses\HomeWork10\HomeWork10\bin\Debug\HomeWork10.exe
 D:\DV_Courses\HomeWork10\HomeWork10\bin\Debug\HomeWork10.pdb
 D:\DV_Courses\HomeWork10\HomeWork10\obj\Debug\HomeWork10.exe
 D:\DV_Courses\HomeWork10\HomeWork10\obj\Debug\HomeWork10.pdb
+E:\bogdan\HomeRepository\HomeWork10\HomeWork10\bin\Debug\HomeWork10.exe.config
+E:\bogdan\HomeRepository\HomeWork10\HomeWork10\obj\Debug\HomeWork10.exe
+E:\bogdan\HomeRepository\HomeWork10\HomeWork10\obj\Debug\HomeWork10.pdb
+E:\bogdan\HomeRepository\HomeWork10\HomeWork10\bin\Debug\HomeWork10.exe
+E:\bogdan\HomeRepository\HomeWork10\HomeWork10\bin\Debug\HomeWork10.pdb
+E:\bogdan\HomeRepository\HomeWork10\HomeWork10\obj\Debug\HomeWork10.csprojResolveAssemblyReference.cache

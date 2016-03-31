@@ -60,49 +60,45 @@ namespace HomeWork10
             if (!IsFull())
             {
                 dArray[Size] = value;
-                Console.WriteLine("The new element {0} was sucessfully added to Array", value);
+                Console.WriteLine("Index - {0}, Element - {1}", Size,value);
                 Size++;
             }
             
             else
             {
-                T[] resizeArray = new T[Capacity * 2];
-
-                for (int i = 0; i < dArray.Length; i++)
-                {
-                    resizeArray[i] = dArray[i];
-
-                }
-
-                dArray = resizeArray;
-                resizeArray[Size] = value;
+                Resize();
+                dArray[Size] = value;
                 Size++;
             }
 
 
         }
-
+        // The method provides Insertion mechanism iwth adding checking logic on Full Array
+        // In case the Array is Full or inserted element will cause missing element
+        // The Resize Array firstly occur and than Insertion value will be performed
         public void Insert(int index, T value)
         {
-            if ((!IsFull()) && (index + 1 <= Size))
+            if ((!IsFull()) && (index + 1 <= Capacity))
             {
-                T temp = dArray[index];
-                for (int i = index; i < dArray.Length; i++)
-                {
-                   
-                    dArray[i++] = temp;
-                }
-                dArray[index] = value;
-                for (int i = 0; i < dArray.Length; i++)
-                {
-                    Console.WriteLine("Index - {0}, Element - {1}", i, dArray[i]);
-                }
-                Size++;
+                SimpleInsert(index, value);
             }
             else
-            { 
-                
+            {
+                Resize();
+                SimpleInsert(index, value);
             }
+        }
+
+        // The method perform Insertion value into Array based on specified index
+        private void SimpleInsert(int index, T value)
+        {
+            for (int i = dArray.Length - 1; i > index; i--)
+            {
+                dArray[i] = dArray[i - 1];
+            }
+            dArray[index] = value;
+            Print();
+            Size++;
         }
 
         // The method find element located under specific index mentioned 
@@ -114,7 +110,7 @@ namespace HomeWork10
         {
             if (!IsEmpty())
             {
-                index--;
+           
                 Console.WriteLine("The  element - {0}", dArray[index]);
                 return dArray[index];
             }
@@ -125,11 +121,46 @@ namespace HomeWork10
             
         }
 
-
+        // The method allows to remove element form Array in specified possition
         public void Remove(int index)
         {
+            if (!IsEmpty())
+            {
+                for (int i = index; i < dArray.Length-1; i++)
+                {
+                    if (((i + 1) != dArray.Length + 1))
+                    {
+                        dArray[i] = dArray[i + 1];
+                    }
+                }
+
+                Size--;
+            }
+            Print();
         }
 
-       
+        // The method perform Resize Array function
+        private void Resize()
+        {
+            T[] resizeArray = new T[Capacity * 2];
+
+            for (int i = 0; i < dArray.Length; i++)
+            {
+                resizeArray[i] = dArray[i];
+
+            }
+
+            dArray = resizeArray;
+        }
+
+        //The method is use for show result
+        public void Print()
+        {
+            for (int i = 0; i < dArray.Length; i++)
+            {
+                Console.WriteLine("Index - {0}, Element - {1}", i, dArray[i]);
+            }
+        }
+
     }
 }
