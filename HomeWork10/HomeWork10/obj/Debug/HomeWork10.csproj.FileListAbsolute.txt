@@ -1,0 +1,7 @@
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\HomeWork10\bin\Debug\HomeWork10.exe.config
+D:\DV_Courses\HomeWork10\HomeWork10\bin\Debug\HomeWork10.exe.config
+D:\DV_Courses\HomeWork10\HomeWork10\obj\Debug\HomeWork10.csprojResolveAssemblyReference.cache
+D:\DV_Courses\HomeWork10\HomeWork10\bin\Debug\HomeWork10.exe
+D:\DV_Courses\HomeWork10\HomeWork10\bin\Debug\HomeWork10.pdb
+D:\DV_Courses\HomeWork10\HomeWork10\obj\Debug\HomeWork10.exe
+D:\DV_Courses\HomeWork10\HomeWork10\obj\Debug\HomeWork10.pdb
