@@ -10,12 +10,13 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
-            MyLinkedList<int> myList = new MyLinkedList<int>();
+            Stack<int> linkedStack = new Stack<int>();
             Console.WriteLine("");
             Console.WriteLine("--------------------------------------------------");
             Console.WriteLine("--------Commands for Stack with Linked List-------");
             Console.WriteLine("--------------------------------------------------");
-            Console.WriteLine("Please type  - push - to add new element to Linked List");
+            Console.WriteLine("Please type  - pushst - to add new element to start of Linked List");
+            Console.WriteLine("Please type  - pushend - to add new element to end of Linked List");
             Console.WriteLine("Please type  - pop - to remove last added element from Linked List");
             Console.WriteLine("Please type  - peek - to see last element in Linked List");
             Console.WriteLine("Please type  - show - to show whole Linked List");
@@ -34,29 +35,35 @@ namespace LinkedList
 
                 switch (queueCommand)
                 {
-                    case "push":
+                    case "pushst":
                         Console.Write("Please enter element:\n");
-                        int pushElement = Int32.Parse(Console.ReadLine());
-                        myList.Push(pushElement);
+                        int pushStartElement = Int32.Parse(Console.ReadLine());
+                        linkedStack.PushToStart(pushStartElement);
+                        break;
+
+                    case "pushend":
+                        Console.Write("Please enter element:\n");
+                        int pushEndElement = Int32.Parse(Console.ReadLine());
+                        linkedStack.PushToLast(pushEndElement);
                         break;
                                           
                     case "pop":
-                        myList.Pop();
+                        linkedStack.PopLast();
                         break;
 
                     case "peek":
-                        myList.Peek();
+                        linkedStack.PeekLast();
                         break;
 
                     case "show":
-                        myList.Print();
+                        linkedStack.ShowStack();
                         break;
 
-                    case "ret":
-                        Console.Write("Please enter Element possition:\n");
-                        int retPos = Int32.Parse(Console.ReadLine());
-                        myList.Retrieve(retPos);
-                        break;
+                    //case "ret":
+                    //    Console.Write("Please enter Element possition:\n");
+                    //    int retPos = Int32.Parse(Console.ReadLine());
+                    //    linkedStack.Retrieve(retPos);
+                    //    break;
 
                     //case "rem":
                     //    Console.Write("Please enter Element possition:\n");

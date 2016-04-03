@@ -51,16 +51,43 @@ namespace LinkedList
         }
 
         
-        // The method Allows user to create a new Node with dates and Link to Next Node. 
-        // After creating a new Node - the Data and Next will contain Null till they will be fill
-        public void Push(T data)
+        // The method Allows user to insert a new Node to Begining of Linked List 
+        public void InsertFirst(T data)
         {
-            Node<T> newAdd = new Node<T>();
-            newAdd.data = data;
-            newAdd.next = head;
-            head = newAdd;
+            Node<T> addBegin = new Node<T>();
+            addBegin.data = data;
+            addBegin.next = head;
+            head = addBegin;
             size++;
         }
+
+        // The method Allows user to insert a new Node to the End of Linked List 
+        public void InsertLast(T data)
+        {
+            if (head == null)
+            {
+                head = new Node<T>();
+
+                head.data = data;
+                head.next = null;
+                size++;
+            }
+            else
+            {
+                Node<T> addLast = new Node<T>();
+                addLast.data = data;
+
+                Node<T> current = head;
+                while (current.next != null)
+                {
+                    current = current.next;
+                }
+
+                current.next = addLast;
+                size++;
+            }
+        }
+
 
         
         // The method allows user to see last added element in the Linked List
