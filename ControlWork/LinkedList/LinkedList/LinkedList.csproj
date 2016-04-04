@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NeedToFinish.cs" />
     <Compile Include="ILinked.cs" />
     <Compile Include="IStack.cs" />
     <Compile Include="MyLinkedList.cs" />

@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
-    public interface IStack
+    public interface IStack<T>
     {
-    }
+        void Push(T data);                     // Add new element to Stack
+        T Pop();                               // Remove last element from Stack
+        T Peek();                              // Show last added Node
+        void Print();                          // Display whole Linked List
+        bool IsEmpty();                        // Check if Stack is Empty
+     }
 }

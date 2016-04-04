@@ -10,66 +10,45 @@ namespace HomeWork10
     {
         protected T[] myStackArray;
         protected int topPossition = 0;
-
-        // The Class Constructor which creates new T Array with Size 4
+                
         public DynamicStack()
         {
             myStackArray = new T[4];
         }
 
-        // The Class Property which allows to get possition in Array
-        private int Capacity
-        {
-            get
-            {
-                return myStackArray.Length;
-            }
-        }
-        
-        
-        //The method checks if Stack is Full
-        public bool IsFull()
-        {
-            if (topPossition == Capacity)
-            {
-                return true;
-            }
-            return false;
-        }
+        //Check if Stack is Full
+        //public bool IsFull()
+        //{
+        //    if (topPossition == myStackArray.Length)
+        //    {
+        //        Console.WriteLine("The Element can't be added to Stack due to it's Full, please make pop or clear");
+        //        return true;
+        //    }
+        //    else { return false; }
+        //}
 
-        //The method checks if Stack is Empty
-        public bool IsEmpty()
+        //Check if Stack is Empty
+        public override bool IsEmpty()
         {
             if (topPossition == 0)
             {
-                Console.WriteLine("The Array is empty");
+                Console.WriteLine("The Stack is Empty, the Pop or Peek isn't avaliable, try to Push element before");
                 return true;
             }
-            return false;
+            else { return false; }
         }
 
-        // The method allows to Push new element to Stack
-        // In case the new element is going to go out the Stack 
-        // The Resize method occur and increase Stack
-        // The new element will be added in resized Stack
+        // Push API
         public void Push(T element)
         {
-            if (!IsFull())
-            {
+            
                 myStackArray[topPossition] = element;
                 Console.WriteLine("The new element {0} was sucessfully added to Stack", element);
                 topPossition++;
-            }
-            else
-            {
-                Resize();
-                myStackArray[topPossition] = element;
-                topPossition++; 
-            }
+            
         }
 
-        // The method allow to Remove last element from Stack
-        // In the Stack is Empty - relevant message appears
+        //Pop API
         public T Pop()
         {
             if (!IsEmpty())
@@ -81,8 +60,8 @@ namespace HomeWork10
             else { return default (T); }
         }
 
-        // The method Peek allows user to see last element in Stack
-        public T Peek()
+        // Peek API
+        public override T Peek()
         {
             if (!IsEmpty())
             {
@@ -90,20 +69,6 @@ namespace HomeWork10
                 return myStackArray[topPossition - 1];
             }
             else { return default (T); }
-        }
-        
-        // The method perform Resize Stack function
-        private void Resize()
-        {
-            T[] resizeArray = new T[Capacity * 2];
-
-            for (int i = 0; i < myStackArray.Length; i++)
-            {
-                resizeArray[i] = myStackArray[i];
-
-            }
-
-            myStackArray = resizeArray;
-        }
+        }   
     }
 }

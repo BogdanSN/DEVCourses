@@ -9,22 +9,18 @@ namespace HomeWork10
     public class DynamicArray<T>: IDynamicArray<T>
     {
         private T[] dArray;
-        
-        // The Class Constructor which creates new T Array with Size 4
+     
         public DynamicArray()
         {
             dArray = new T[4];
         }
         
-        // The Class Property which allows to get possition in Array
         public int Size
         {
             set;
             get;
         }
         
-        // The Class Property which will use to for checking if Array is Full and Empty
-        // Also this property will use for Resize method 
         public int Capacity
         {
             get
@@ -77,8 +73,7 @@ namespace HomeWork10
 
 
         }
-        
-        // The method provides Insertion mechanism with adding checking logic on Full Array
+        // The method provides Insertion mechanism iwth adding checking logic on Full Array
         // In case the Array is Full or inserted element will cause missing element
         // The Resize Array firstly occur and than Insertion value will be performed
         public void Insert(int index, T value)
@@ -110,6 +105,7 @@ namespace HomeWork10
         // by user in Array and return it.
         // Before returning the code check if Array isn't Empty and if no
         // decrease index by 1 for user friendly return
+        // If user enter 1 - the program return element under index 0 
         public T Get(int index)
         {
             if (!IsEmpty())

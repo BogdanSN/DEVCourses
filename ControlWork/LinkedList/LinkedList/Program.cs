@@ -15,16 +15,15 @@ namespace LinkedList
             Console.WriteLine("--------------------------------------------------");
             Console.WriteLine("--------Commands for Stack with Linked List-------");
             Console.WriteLine("--------------------------------------------------");
-            Console.WriteLine("Please type  - pushst - to add new element to start of Linked List");
-            Console.WriteLine("Please type  - pushend - to add new element to end of Linked List");
+            Console.WriteLine("Please type  - push - to add new element to start of Linked List");
             Console.WriteLine("Please type  - pop - to remove last added element from Linked List");
             Console.WriteLine("Please type  - peek - to see last element in Linked List");
             Console.WriteLine("Please type  - show - to show whole Linked List");
-            Console.WriteLine("Please type  - find - to find element by possiotion № in Linked List");
             Console.WriteLine("Please type  - exit - to program exit");
             Console.WriteLine("--------------------------------------------------");
 
             // Will be finished soon
+            // Console.WriteLine("Please type  - find - to find element by possiotion № in Linked List");
             // Console.WriteLine("Please type  - rem - to remove element by possition № from Linked List");
             // Console.WriteLine("Please type  - ins - to insert element by possition № in Linked List");
            
@@ -35,30 +34,27 @@ namespace LinkedList
 
                 switch (queueCommand)
                 {
-                    case "pushst":
+                    case "push":
                         Console.Write("Please enter element:\n");
-                        int pushStartElement = Int32.Parse(Console.ReadLine());
-                        linkedStack.PushToStart(pushStartElement);
+                        int push = Int32.Parse(Console.ReadLine());
+                        linkedStack.Push(push);
                         break;
-
-                    case "pushend":
-                        Console.Write("Please enter element:\n");
-                        int pushEndElement = Int32.Parse(Console.ReadLine());
-                        linkedStack.PushToLast(pushEndElement);
-                        break;
-                                          
+                                                                  
                     case "pop":
-                        linkedStack.PopLast();
+                        linkedStack.Pop();
                         break;
 
                     case "peek":
-                        linkedStack.PeekLast();
+                        linkedStack.Peek();
                         break;
 
                     case "show":
-                        linkedStack.ShowStack();
+                        linkedStack.Print();
                         break;
 
+                    case "exit":
+                        System.Environment.Exit(1);
+                        break;
                     //case "ret":
                     //    Console.Write("Please enter Element possition:\n");
                     //    int retPos = Int32.Parse(Console.ReadLine());
@@ -71,9 +67,7 @@ namespace LinkedList
                     //    myList.Remove(remPos);
                     //    break;
 
-                    case "exit":
-                        System.Environment.Exit(1);
-                        break;
+                    
                 }
             }
             Console.ReadLine();

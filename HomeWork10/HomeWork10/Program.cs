@@ -10,31 +10,6 @@ namespace HomeWork10
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please select what you want to do:");
-            Console.WriteLine("1. Work with Dynamic Array");
-            Console.WriteLine("2. Work with buffer by Stack method");
-            Console.WriteLine("3. Work with buffer by Queue method");
-            Console.Write("Your variant is - ");
-            int method = Int32.Parse(Console.ReadLine());
-
-            switch (method)
-            {
-                case 1:
-                    DynamicArray();
-                    break;
-                case 2:
-                    StackBuffering();
-                    break;
-                case 3:
-                    QueueBuffering();
-                    break;
-            }
-            // Press any key before close CMD
-            Console.Read();
-        }
-
-        static void DynamicArray()
-        {
             DynamicArray<int> dynArr = new DynamicArray<int>();
             Console.WriteLine("");
             Console.WriteLine("--------------------------------------------------");
@@ -66,14 +41,14 @@ namespace HomeWork10
                         int getPos = Int32.Parse(Console.ReadLine());
                         dynArr.Get(getPos);
                         break;
-
+                        
 
                     case "ins":
                         Console.WriteLine("Possition in Array:");
                         int insPos = Int32.Parse(Console.ReadLine());
                         Console.WriteLine("Element:");
                         int insElem = Int32.Parse(Console.ReadLine());
-                        dynArr.Insert(insPos, insElem);
+                        dynArr.Insert(insPos,insElem);
                         break;
 
                     case "rem":
@@ -92,90 +67,9 @@ namespace HomeWork10
                         System.Environment.Exit(1);
                         break;
                 }
-            }
-        }
 
-        static void StackBuffering()
-        {
 
-            DynamicStack<int> stack = new DynamicStack<int>();
-            Console.WriteLine("");
-            Console.WriteLine("--------------------------------------------------");
-            Console.WriteLine("------------Commands for Dynamic Stack------------");
-            Console.WriteLine("--------------------------------------------------");
-            Console.WriteLine("Please type  - push - to put new element to Stack");
-            Console.WriteLine("Please type  - pop - to remove last element from Stack");
-            Console.WriteLine("Please type  - peek - to show last element from Stack");
-            Console.WriteLine("Please type  - exit - to program exit");
-            Console.WriteLine("--------------------------------------------------");
-
-            while (true)
-            {
-                Console.Write("Please type command:");
-                string stackCommand = Console.ReadLine();
-
-                switch (stackCommand)
-                {
-                    case "push":
-                        Console.WriteLine("Please enter element which will be added to Stack:");
-                        int pushElement = Int32.Parse(Console.ReadLine());
-                        stack.Push(pushElement);
-                        break;
-
-                    case "pop":
-                        stack.Pop();
-                        break;
-
-                    case "peek":
-                        stack.Peek();
-                        break;
-
-                    case "exit":
-                        System.Environment.Exit(1);
-                        break;
-                }
-            }
-
-        }
-        static void QueueBuffering()
-        {
-
-            DynamicQueue<int> queue = new DynamicQueue<int>();
-            Console.WriteLine("");
-            Console.WriteLine("--------------------------------------------------");
-            Console.WriteLine("------------Commands for Dynamic Queue------------");
-            Console.WriteLine("--------------------------------------------------");
-            Console.WriteLine("Please type  - enq - to put new element to Queue");
-            Console.WriteLine("Please type  - deq - to remove last element from Queue");
-            Console.WriteLine("Please type  - exit - to program exit");
-            Console.WriteLine("--------------------------------------------------");
-
-            while (true)
-            {
-                Console.Write("Please type command:");
-                string queueCommand = Console.ReadLine();
-
-                switch (queueCommand)
-                {
-                    case "enq":
-                        Console.WriteLine("Please enter element which will be added to Queue");
-                        int pushElement = Int32.Parse(Console.ReadLine());
-                        queue.Enqueue(pushElement);
-                        break;
-
-                    case "deq":
-                        queue.Deq();
-                        break;
-
-                    case "show":
-                        Console.WriteLine("See whole Queue:");
-                        queue.Print();
-                        break;
-
-                    case "exit":
-                        System.Environment.Exit(1);
-                        break;
-                }
+                Console.ReadKey();
             }
         }
     }
