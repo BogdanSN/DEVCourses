@@ -1,0 +1,13 @@
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\LinkedList\bin\Debug\LinkedList.exe.config
+D:\DVCourses\HomeRepository\ControlWork\LinkedList\LinkedList\bin\Debug\LinkedList.exe.config
+D:\DVCourses\HomeRepository\ControlWork\LinkedList\LinkedList\bin\Debug\LinkedList.exe
+D:\DVCourses\HomeRepository\ControlWork\LinkedList\LinkedList\bin\Debug\LinkedList.pdb
+D:\DVCourses\HomeRepository\ControlWork\LinkedList\LinkedList\obj\Debug\LinkedList.csprojResolveAssemblyReference.cache
+D:\DVCourses\HomeRepository\ControlWork\LinkedList\LinkedList\obj\Debug\LinkedList.exe
+D:\DVCourses\HomeRepository\ControlWork\LinkedList\LinkedList\obj\Debug\LinkedList.pdb
+E:\bogdan\HomeRepository\ControlWork\LinkedList\LinkedList\bin\Debug\LinkedList.exe.config
+E:\bogdan\HomeRepository\ControlWork\LinkedList\LinkedList\obj\Debug\LinkedList.exe
+E:\bogdan\HomeRepository\ControlWork\LinkedList\LinkedList\obj\Debug\LinkedList.pdb
+E:\bogdan\HomeRepository\ControlWork\LinkedList\LinkedList\bin\Debug\LinkedList.exe
+E:\bogdan\HomeRepository\ControlWork\LinkedList\LinkedList\bin\Debug\LinkedList.pdb
+E:\bogdan\HomeRepository\ControlWork\LinkedList\LinkedList\obj\Debug\LinkedList.csprojResolveAssemblyReference.cache
