@@ -1,0 +1,7 @@
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Lesson12-Files\bin\Debug\Lesson12-Files.exe.config
+D:\DVCourses\HomeRepository\Lesson12\Lesson12-Files\Lesson12-Files\bin\Debug\Lesson12-Files.exe.config
+D:\DVCourses\HomeRepository\Lesson12\Lesson12-Files\Lesson12-Files\bin\Debug\Lesson12-Files.exe
+D:\DVCourses\HomeRepository\Lesson12\Lesson12-Files\Lesson12-Files\bin\Debug\Lesson12-Files.pdb
+D:\DVCourses\HomeRepository\Lesson12\Lesson12-Files\Lesson12-Files\obj\Debug\Lesson12-Files.csprojResolveAssemblyReference.cache
+D:\DVCourses\HomeRepository\Lesson12\Lesson12-Files\Lesson12-Files\obj\Debug\Lesson12-Files.exe
+D:\DVCourses\HomeRepository\Lesson12\Lesson12-Files\Lesson12-Files\obj\Debug\Lesson12-Files.pdb
