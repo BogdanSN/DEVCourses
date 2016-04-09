@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lesson12_Files
 {
-    public class FileReader
+    public class FileHandler
     {
         private const string inputFile  = "Input.txt";
         private const string blackFile  = "Blacklist.txt";

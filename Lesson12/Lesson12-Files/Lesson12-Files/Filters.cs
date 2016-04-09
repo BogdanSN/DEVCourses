@@ -11,18 +11,18 @@ namespace Lesson12_Files
         private string tempResult = null;
        
 
-        FileReader fr = new FileReader();
+        FileHandler fhandler = new FileHandler();
 
         public void WhiteListFilter()
         {
             const string outputFile = "Output_whitelist.txt";
             
-            List<string> white = fr.ReadWhiteList();
+            List<string> white = fhandler.ReadWhiteList();
             
             for (int i = 0; i < white.Count; i++)
             {
                 tempResult = white[i];
-                fr.WriteToFile(outputFile, tempResult);
+                fhandler.WriteToFile(outputFile, tempResult);
             }
         }
 
@@ -30,15 +30,15 @@ namespace Lesson12_Files
         {
             const string outputFile = "Output_blacklist.txt";
 
-            List<string> input = fr.ReadInput();
-            List<string> black = fr.ReadBlackList();
+            List<string> input = fhandler.ReadInput();
+            List<string> black = fhandler.ReadBlackList();
                                     
             for (int i = 0; i < input.Count; i++)
             {
                 tempResult = input[i];
                 if (!black.Contains(tempResult))
                 {
-                    fr.WriteToFile(outputFile, tempResult);
+                    fhandler.WriteToFile(outputFile, tempResult);
                 }
             }
         }
@@ -46,9 +46,9 @@ namespace Lesson12_Files
         public void CombinationFilter()
         {
             const string outputFile = "Output_blacklist_whitelist.txt";
-            List<string> input = fr.ReadInput();
-            List<string> black = fr.ReadBlackList();
-            List<string> white = fr.ReadWhiteList();
+            List<string> input = fhandler.ReadInput();
+            List<string> black = fhandler.ReadBlackList();
+            List<string> white = fhandler.ReadWhiteList();
             
 
             for (int i = 0; i < input.Count; i++)
@@ -58,7 +58,7 @@ namespace Lesson12_Files
                 {
                     if (white.Contains(tempResult))
                     {
-                        fr.WriteToFile(outputFile, tempResult);
+                        fhandler.WriteToFile(outputFile, tempResult);
                     }
                 }
             }
