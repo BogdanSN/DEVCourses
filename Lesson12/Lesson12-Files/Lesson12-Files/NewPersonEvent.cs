@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Lesson12_Files
 {
-    public interface IFilterSpecification
+    public class NewPersonEventArgs : EventArgs
     {
-        string IsSatisfiedBy(string personal);
+        public string person { set; get; }
+        public DateTime genTime { set; get; }
+
     }
 }

@@ -9,12 +9,15 @@ namespace Lesson12_Files
 {
     public class FileHandler
     {
-        private const string inputFile  = "Input.txt";
-        private const string blackFile  = "Blacklist.txt";
-        private const string whiteFile  = "Whitelist.txt";
+        private const string fileNames  = "Names.txt";
+        private const string fileSurnames = "Surnames.txt";
+        private const string fileBlackList  = "Blacklist.txt";
+        private const string fileWhiteList  = "Whitelist.txt";
+        private const string fileOutput = "Output.txt";
 
 
-        List<string> inputList = new List<string>();
+        List<string> namesList = new List<string>();
+        List<string> surnamesList = new List<string>();
         List<string> blackList = new List<string>();
         List<string> whiteList = new List<string>();
 
@@ -30,39 +33,46 @@ namespace Lesson12_Files
                 while ((line = reader.ReadLine()) != null)
                 {
                     outputList.Add(line);
-                    Console.WriteLine(line);
+                   
                 }
             }
         }
 
         // Common method for writing to files 
-        public void WriteToFile(string filePath, string result)
+        public void WriteToFile(string result)
         {
-            using (StreamWriter writer = new StreamWriter(filePath,true))
+            using (StreamWriter writer = new StreamWriter(fileOutput,true))
             {
-                writer.WriteLine(result);
+               writer.WriteLine(result);
                 
             }
         }
 
-        // Reading Input.txt file
-        public List<string> ReadInput()
+        // Reading Names.txt file
+        public List<string> ReadFileNames()
         {
-            ReadFromFile(inputFile, inputList);
-            return inputList;
+            ReadFromFile(fileNames, namesList);
+            return namesList;
+        }
+
+        // Reading Surname.txt file
+        public List<string> ReadSurnamesFile()
+        {
+            ReadFromFile(fileSurnames, surnamesList);
+            return surnamesList;
         }
 
         // Reading WhiteList.txt file
         public List<string> ReadWhiteList()
         {
-            ReadFromFile(whiteFile, whiteList);
+            ReadFromFile(fileWhiteList, whiteList);
             return whiteList;
         }
 
         // Reading BlackList.txt file
         public List<string> ReadBlackList()
         {
-            ReadFromFile(blackFile, blackList);
+            ReadFromFile(fileBlackList, blackList);
             return blackList;
         }
     }
