@@ -1,0 +1,10 @@
+C:\Users\Ptolemey\AppData\Local\Temporary Projects\Lesson_14_Windows_Forms\bin\Debug\Lesson_14_Windows_Forms.exe.config
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\Lesson_14_Windows_Forms.exe.config
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\Lesson_14_Windows_Forms.exe
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\Lesson_14_Windows_Forms.pdb
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\obj\Debug\Lesson_14_Windows_Forms.csprojResolveAssemblyReference.cache
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\obj\Debug\Lesson_14_Windows_Forms.TimeComparatorForm.resources
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\obj\Debug\Lesson_14_Windows_Forms.Properties.Resources.resources
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\obj\Debug\Lesson_14_Windows_Forms.csproj.GenerateResource.Cache
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\obj\Debug\Lesson_14_Windows_Forms.exe
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\obj\Debug\Lesson_14_Windows_Forms.pdb
