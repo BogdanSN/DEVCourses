@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMethodSpecifiction.cs" />
     <Compile Include="TimeComparator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +78,32 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QueueOnArray\QueueOnArray.csproj">
+      <Project>{33fceeca-bfd5-4257-b0a8-7e3b1fac4653}</Project>
+      <Name>QueueOnArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QueuOnDynamicArray\QueuOnDynamicArray.csproj">
+      <Project>{4e4bea0d-f4c5-4e0b-952b-b4f06d58736d}</Project>
+      <Name>QueuOnDynamicArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StackOnArray\StackOnArray.csproj">
+      <Project>{804d221b-da96-47c1-9562-efbd371f0e2d}</Project>
+      <Name>StackOnArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StackOnDynamicArraay\StackOnDynamicArraay.csproj">
+      <Project>{5aca4a47-ef07-46cd-a539-2ad859c735ca}</Project>
+      <Name>StackOnDynamicArraay</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StackOnList\StackOnList.csproj">
+      <Project>{68581d8d-536f-41d8-9a9d-fac10adb161b}</Project>
+      <Name>StackOnList</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StackOnNet\StackOnNet.csproj">
+      <Project>{9e31b692-9922-41b5-b017-8ce09a2924c5}</Project>
+      <Name>StackOnNet</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

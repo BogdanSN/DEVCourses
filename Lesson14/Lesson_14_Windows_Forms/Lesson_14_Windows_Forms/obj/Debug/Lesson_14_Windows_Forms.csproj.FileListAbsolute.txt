@@ -8,3 +8,6 @@ D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_F
 D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\obj\Debug\Lesson_14_Windows_Forms.csproj.GenerateResource.Cache
 D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\obj\Debug\Lesson_14_Windows_Forms.exe
 D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\obj\Debug\Lesson_14_Windows_Forms.pdb
+E:\bogdan\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\Lesson_14_Windows_Forms.exe.config
+E:\bogdan\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\obj\Debug\Lesson_14_Windows_Forms.exe
+E:\bogdan\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\obj\Debug\Lesson_14_Windows_Forms.pdb
