@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lesson_14_Windows_Forms
 {
-    public class Class1
+    public class Node<T>
     {
+        public Node<T> next;
+        public long data;
     }
 }

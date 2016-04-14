@@ -84,6 +84,10 @@
       <Project>{33fceeca-bfd5-4257-b0a8-7e3b1fac4653}</Project>
       <Name>QueueOnArray</Name>
     </ProjectReference>
+    <ProjectReference Include="..\QueueOnNet\QueueOnNet.csproj">
+      <Project>{a89cb584-6637-4ee6-8e39-01c66c43a787}</Project>
+      <Name>QueueOnNet</Name>
+    </ProjectReference>
     <ProjectReference Include="..\QueuOnDynamicArray\QueuOnDynamicArray.csproj">
       <Project>{4e4bea0d-f4c5-4e0b-952b-b4f06d58736d}</Project>
       <Name>QueuOnDynamicArray</Name>

@@ -11,3 +11,17 @@ D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_F
 E:\bogdan\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\Lesson_14_Windows_Forms.exe.config
 E:\bogdan\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\obj\Debug\Lesson_14_Windows_Forms.exe
 E:\bogdan\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\obj\Debug\Lesson_14_Windows_Forms.pdb
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\QueueOnArray.dll
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\QueuOnDynamicArray.dll
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\StackOnArray.dll
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\StackOnDynamicArraay.dll
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\StackOnList.dll
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\StackOnNet.dll
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\QueueOnArray.pdb
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\QueuOnDynamicArray.pdb
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\StackOnArray.pdb
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\StackOnDynamicArraay.pdb
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\StackOnList.pdb
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\StackOnNet.pdb
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\QueueOnNet.dll
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\QueueOnNet.pdb

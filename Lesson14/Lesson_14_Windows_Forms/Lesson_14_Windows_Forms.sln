@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueOnArray", "QueueOnArra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueuOnDynamicArray", "QueuOnDynamicArray\QueuOnDynamicArray.csproj", "{4E4BEA0D-F4C5-4E0B-952B-B4F06D58736D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueOnNet", "QueueOnNet\QueueOnNet.csproj", "{A89CB584-6637-4EE6-8E39-01C66C43A787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4E4BEA0D-F4C5-4E0B-952B-B4F06D58736D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E4BEA0D-F4C5-4E0B-952B-B4F06D58736D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E4BEA0D-F4C5-4E0B-952B-B4F06D58736D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A89CB584-6637-4EE6-8E39-01C66C43A787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89CB584-6637-4EE6-8E39-01C66C43A787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89CB584-6637-4EE6-8E39-01C66C43A787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89CB584-6637-4EE6-8E39-01C66C43A787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
