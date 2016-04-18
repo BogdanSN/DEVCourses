@@ -7,25 +7,20 @@ using System.Diagnostics;
 
 namespace Lesson_14_Windows_Forms
 {
-    public class MyStackNet
+    public class MyStackNet : StackSpecification
     {
         Stack<long> stackNet = new Stack<long>();
 
         Random rand = new Random();
 
-        public long Start()
+        public long StartNet()
         {
-            Stopwatch watch = new Stopwatch();
-            watch.Start();
-            PushNet();
-            PopNet();
-            watch.Stop();
-
-            return watch.ElapsedMilliseconds;
+            long temp = 0;
+            return temp = Start();
 
         }
 
-        private void PushNet()
+        public override void Push()
         { 
             for (int i=0;i<1000000; i++)
             {
@@ -33,7 +28,7 @@ namespace Lesson_14_Windows_Forms
             }
         }
 
-        private void PopNet()
+        public override void Pop()
         {
             for (int i = 1000000;i == 0; i--)
             {

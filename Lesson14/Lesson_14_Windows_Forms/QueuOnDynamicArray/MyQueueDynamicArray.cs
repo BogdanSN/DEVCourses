@@ -7,26 +7,19 @@ using System.Diagnostics;
 
 namespace Lesson_14_Windows_Forms
 {
-    public class MyQueueDynamicArray
+    public class MyQueueDynamicArray : QueueSpecification
     {
         private long[] queueDynamicArray = new long[4];
         private long head = 0;
         private long tail = 0;
         Random rand = new Random();
         
-        public long Start()
+        public long StartDynamicQueue()
         {
-            Stopwatch watch = new Stopwatch();
-            watch.Start();
-            EnqueueDynamicArray();
-            DeqDynamicArray();
-            watch.Stop();
-
-            return watch.ElapsedMilliseconds;
+            return Start();
 
         }
-
-
+        
 
         public int Size
         {
@@ -42,7 +35,7 @@ namespace Lesson_14_Windows_Forms
             }
         }
 
-        private bool IsFull()
+        public override bool IsFull()
         {
             if (Size == 0) 
             {
@@ -54,7 +47,7 @@ namespace Lesson_14_Windows_Forms
         }
 
 
-        private bool IsEmpty()
+        public override bool IsEmpty()
         {
             Size = queueDynamicArray.Length;
 
@@ -68,9 +61,9 @@ namespace Lesson_14_Windows_Forms
             }
         }
 
-        private void EnqueueDynamicArray()
+        public override void QEnqueue()
         {
-            //Size = queueDynamicArray.Length;
+           
             for (int i = 0; i < 1000000; i++)
             {
                 if (!IsFull())
@@ -91,7 +84,7 @@ namespace Lesson_14_Windows_Forms
             }
         }
 
-        private void DeqDynamicArray()
+        public override void QDequeue()
         {
 
             for (int i = 1000000; i == 0; i--)

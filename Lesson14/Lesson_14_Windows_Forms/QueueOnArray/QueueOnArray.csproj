@@ -42,6 +42,12 @@
     <Compile Include="MyQueueArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QueueSpecification\QueueSpecification.csproj">
+      <Project>{34d71e49-d339-4994-99d0-0d4feee60897}</Project>
+      <Name>QueueSpecification</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

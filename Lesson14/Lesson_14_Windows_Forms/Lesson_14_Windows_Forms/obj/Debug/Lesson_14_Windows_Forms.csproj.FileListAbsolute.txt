@@ -25,3 +25,7 @@ D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_F
 D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\StackOnNet.pdb
 D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\QueueOnNet.dll
 D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\QueueOnNet.pdb
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\StackSpecification.dll
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\StackSpecification.pdb
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\QueueSpecification.dll
+D:\DVCourses\HomeRepository\Lesson14\Lesson_14_Windows_Forms\Lesson_14_Windows_Forms\bin\Debug\QueueSpecification.pdb

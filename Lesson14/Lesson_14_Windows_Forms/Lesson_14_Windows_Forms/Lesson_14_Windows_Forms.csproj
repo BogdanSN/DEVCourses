@@ -88,6 +88,10 @@
       <Project>{a89cb584-6637-4ee6-8e39-01c66c43a787}</Project>
       <Name>QueueOnNet</Name>
     </ProjectReference>
+    <ProjectReference Include="..\QueueSpecification\QueueSpecification.csproj">
+      <Project>{34d71e49-d339-4994-99d0-0d4feee60897}</Project>
+      <Name>QueueSpecification</Name>
+    </ProjectReference>
     <ProjectReference Include="..\QueuOnDynamicArray\QueuOnDynamicArray.csproj">
       <Project>{4e4bea0d-f4c5-4e0b-952b-b4f06d58736d}</Project>
       <Name>QueuOnDynamicArray</Name>
@@ -107,6 +111,10 @@
     <ProjectReference Include="..\StackOnNet\StackOnNet.csproj">
       <Project>{9e31b692-9922-41b5-b017-8ce09a2924c5}</Project>
       <Name>StackOnNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StackSpecification\StackSpecification.csproj">
+      <Project>{5d6ee8de-6ea7-43a0-a365-6df97202f97a}</Project>
+      <Name>StackSpecification</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

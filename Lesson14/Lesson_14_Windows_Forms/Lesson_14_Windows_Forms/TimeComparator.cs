@@ -52,7 +52,7 @@ namespace Lesson_14_Windows_Forms
             if (StackArrayCheckBox.Checked)
             {
                 MyStackArray mySA = new MyStackArray();
-                long time = mySA.Start();
+                long time = mySA.StartArray();
                 StackArrayLabel.Text = String.Format(time + " ms");
             }
 
@@ -76,7 +76,7 @@ namespace Lesson_14_Windows_Forms
             if (QueueNetCheckBox.Checked)
             {
                 MyQueueNet myQN = new MyQueueNet();
-                long time = myQN.Start();
+                long time = myQN.StartQueueNet();
                 QueueNetLabel.Text = String.Format(time + " ms");
             }
             
@@ -84,7 +84,7 @@ namespace Lesson_14_Windows_Forms
             if (QueueArrayCheckBox.Checked)
             {
                 MyQueueArray myQA = new MyQueueArray();
-                long time = myQA.Start();
+                long time = myQA.StartQueueArray();
                 QueueArrayLabel.Text = String.Format(time + " ms");
             }
 
@@ -92,7 +92,7 @@ namespace Lesson_14_Windows_Forms
             if (QueueDynamicArrayCheckBox.Checked)
             {
                 MyQueueDynamicArray myQDA = new MyQueueDynamicArray();
-                long time = myQDA.Start();
+                long time = myQDA.StartDynamicQueue();
                 QueueDynamicArrayLabel.Text = String.Format(time + " ms");
             }
 

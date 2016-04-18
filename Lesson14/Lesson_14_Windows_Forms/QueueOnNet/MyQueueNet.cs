@@ -7,25 +7,18 @@ using System.Diagnostics;
 
 namespace Lesson_14_Windows_Forms
 {
-    public class MyQueueNet
+    public class MyQueueNet : QueueSpecification
     {
         private Queue<long> myQueueNet = new Queue<long>();
 
         Random rand = new Random();
 
-        public long Start()
+        public long StartQueueNet()
         {
-            Stopwatch watch = new Stopwatch();
-            watch.Start();
-            EnqueueNet();
-            DeqNet();
-            watch.Stop();
-
-            return watch.ElapsedMilliseconds;
-
+            return Start();
         }
 
-        private void EnqueueNet()
+        public override void QEnqueue()
         {
             for (int i = 0; i < 1000000; i++)
             {
@@ -33,7 +26,7 @@ namespace Lesson_14_Windows_Forms
             }
         }
 
-        private void DeqNet()
+        public override void QDequeue()
         {
             for (int i = 1000000; i == 0; i--)
             {

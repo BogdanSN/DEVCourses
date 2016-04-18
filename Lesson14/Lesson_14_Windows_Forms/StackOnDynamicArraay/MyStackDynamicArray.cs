@@ -7,7 +7,7 @@ using System.Diagnostics;
 
 namespace Lesson_14_Windows_Forms
 {
-    public class MyStackDynamicArray
+    public class MyStackDynamicArray : StackSpecification
     {
         private long[] stackDynamicArray = new long[4];
 
@@ -30,19 +30,14 @@ namespace Lesson_14_Windows_Forms
 
 
 
-        public long Start()
+        public long StartDynamicArray()
         {
-            Stopwatch watch = new Stopwatch();
-            watch.Start();
-            PushDynamicArray();
-            PopDynamicArray();
-            watch.Stop();
-
-            return watch.ElapsedMilliseconds;
+            long temp = 0;
+            return temp = Start();
 
         }
 
-        private void PushDynamicArray()
+        public override void Push()
         {
             for (int i = 0; i < 1000000; i++)
             {
@@ -60,16 +55,20 @@ namespace Lesson_14_Windows_Forms
             }
         }
 
-        private void PopDynamicArray()
+        public override void Pop()
         {
-            for (int i = 1000000; i == 0; i--)
+            for (int i = stackDynamicArray.Length; i == 0; i--)
             {
-                stackDynamicArray[i] = 0;
-                Size--;
+                if (!IsEmpty())
+                {
+                    stackDynamicArray[i] = 0;
+                    Size--;
+                }
             }
+            
         }
 
-        private bool IsFull()
+        public override bool IsFull()
         {
             if (Size == Capacity)
             {

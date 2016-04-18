@@ -7,23 +7,18 @@ using System.Diagnostics;
 
 namespace Lesson_14_Windows_Forms
 {
-    public class MyStackList
+    public class MyStackList : StackSpecification
     {
         MyLinkedList<long> myLL = new MyLinkedList<long>();
         
-        public long Start()
+        public long StartList()
         {
-            Stopwatch watch = new Stopwatch();
-            watch.Start();
-            PushList();
-            PopList();
-            watch.Stop();
-
-            return watch.ElapsedMilliseconds;
+            long temp = 0;
+            return temp = Start();
 
         }
 
-        private void PushList()
+        public override void Push()
         {
             for (int i = 0; i < 1000000; i++)
             {
@@ -31,7 +26,7 @@ namespace Lesson_14_Windows_Forms
             }
         }
 
-        private void PopList()
+        public override void Pop()
         {
             for (int i = 1000000; i == 0; i--)
             {
