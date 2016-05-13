@@ -43,10 +43,6 @@ namespace Ashure_Library
                                 lView.Items.Add(listViewI);
 
                             }
-                            
-                            //SaveCurrentPlaylistButton.Enabled = true;
-                            //SaveAsPlaylistButton.Enabled = true;
-                            //ExportPlaylistButton.Enabled = true;
 
                         }
                     
