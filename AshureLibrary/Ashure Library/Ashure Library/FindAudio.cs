@@ -52,7 +52,6 @@ namespace Ashure_Library
                     ListViewItem lVItemp = GetFileInfo(filePaths[i]);
                     ResultListView.Items.Add(lVItemp);
 
-
                 }
             }
             catch (Exception ex)
@@ -70,15 +69,10 @@ namespace Ashure_Library
             FileStream fs = new FileStream(fileName, FileMode.Open);
             fs.Seek(-128, SeekOrigin.End);
             fs.Read(b, 0, 128);
-//            bool isSet = false;
             string sFlag = System.Text.Encoding.Default.GetString(b, 0, 3);
             if (sFlag.CompareTo("TAG") == 0)
             {
                 System.Console.WriteLine("Tag   is   setted! ");
-//                isSet = true;
-
-                //if (isSet)
-                //{
                 
                     string[] fileInfo = new string[7];
                     fileInfo[0] = Path.GetFileName(fileName);                           //FileName
@@ -105,5 +99,15 @@ namespace Ashure_Library
                     return fileInfoList = new ListViewItem(fileInfo);
                 }
             }
+
+        private void AddToPlayList_Click(object sender, EventArgs e)
+        {
+            //
+            //  TODO: Mechanism of adding files from Extended Search to Playlist
+            //
+
+            
+
+        }
         }
     }

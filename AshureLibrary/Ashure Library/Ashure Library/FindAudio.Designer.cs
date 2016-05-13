@@ -46,11 +46,13 @@
             this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.AddToPlayList = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.AddToPlayList);
             this.groupBox1.Controls.Add(this.FindButton);
             this.groupBox1.Controls.Add(this.FileFormatCheckBox);
             this.groupBox1.Controls.Add(this.FileNameText);
@@ -61,16 +63,16 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(361, 87);
+            this.groupBox1.Size = new System.Drawing.Size(405, 87);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Options";
             // 
             // FindButton
             // 
-            this.FindButton.Location = new System.Drawing.Point(273, 52);
+            this.FindButton.Location = new System.Drawing.Point(273, 35);
             this.FindButton.Name = "FindButton";
-            this.FindButton.Size = new System.Drawing.Size(75, 23);
+            this.FindButton.Size = new System.Drawing.Size(126, 23);
             this.FindButton.TabIndex = 7;
             this.FindButton.Text = "Find";
             this.FindButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -108,7 +110,7 @@
             // 
             this.BrowseButton.Location = new System.Drawing.Point(273, 11);
             this.BrowseButton.Name = "BrowseButton";
-            this.BrowseButton.Size = new System.Drawing.Size(75, 23);
+            this.BrowseButton.Size = new System.Drawing.Size(126, 23);
             this.BrowseButton.TabIndex = 3;
             this.BrowseButton.Text = "Browse";
             this.BrowseButton.UseVisualStyleBackColor = true;
@@ -151,7 +153,7 @@
             this.columnHeader12});
             this.ResultListView.Location = new System.Drawing.Point(12, 105);
             this.ResultListView.Name = "ResultListView";
-            this.ResultListView.Size = new System.Drawing.Size(361, 170);
+            this.ResultListView.Size = new System.Drawing.Size(405, 170);
             this.ResultListView.TabIndex = 1;
             this.ResultListView.UseCompatibleStateImageBehavior = false;
             this.ResultListView.View = System.Windows.Forms.View.Details;
@@ -184,11 +186,21 @@
             // 
             this.columnHeader12.Text = "Location";
             // 
+            // AddToPlayList
+            // 
+            this.AddToPlayList.Location = new System.Drawing.Point(273, 59);
+            this.AddToPlayList.Name = "AddToPlayList";
+            this.AddToPlayList.Size = new System.Drawing.Size(126, 23);
+            this.AddToPlayList.TabIndex = 8;
+            this.AddToPlayList.Text = "Add to plyalist";
+            this.AddToPlayList.UseVisualStyleBackColor = true;
+            this.AddToPlayList.Click += new System.EventHandler(this.AddToPlayList_Click);
+            // 
             // FindAudioForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(382, 287);
+            this.ClientSize = new System.Drawing.Size(429, 287);
             this.Controls.Add(this.ResultListView);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -220,5 +232,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader10;
         private System.Windows.Forms.ColumnHeader columnHeader11;
         private System.Windows.Forms.ColumnHeader columnHeader12;
+        private System.Windows.Forms.Button AddToPlayList;
     }
 }
