@@ -7,7 +7,6 @@ using System.Collections;
 using System.IO;
 using System.Windows.Forms;
 using WMPLib;
-using System.Runtime.InteropServices;
 
 namespace Ashure_Library
 {
@@ -148,6 +147,7 @@ namespace Ashure_Library
                 tracksURLs.Add(currentTrackSourceURL);
                 playList.appendItem(track);
                 mediaPlayer.currentPlaylist.appendItem(track);
+                
 
             }
         }
